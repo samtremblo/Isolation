@@ -1,0 +1,590 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14e24301400934440b78c58163cd2fd7, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 921c06c9b4d08a4cba87ce495459b879
+    GuidInternal: 
+    m_lastTime: -8586463390334775808
+    List:
+    - name: New_Acoustic_Texture
+      guid: 0edaf8506761094a9f47dcfbd5079a0a
+      id: 2688591989
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: New_Acoustic_Texture
+        ObjectType: 15
+      Path: Default Work Unit\New_Acoustic_Texture
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 532a6202b22a314a9e7f6fddb943b649
+    GuidInternal: 
+    m_lastTime: -8586461373474775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: bcba9ef5e8e7a84896dbb939897751a2
+    GuidInternal: 
+    m_lastTime: -8586461373454775808
+    List:
+    - name: Main
+      guid: a7c424d9e89d9f459b0200f1b7e28cf1
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: cb71a40830487d468b3b38a30d795358
+    GuidInternal: 
+    m_lastTime: -8586461373474775808
+    List:
+    - name: Footsteps_Concrete
+      guid: de4a3f8ae4121847900e42d38d148a8e
+      id: 82718740
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footsteps_Concrete
+        ObjectType: 3
+      Path: Default Work Unit\Footsteps_Concrete
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Music
+      guid: ecac9e091ffe7f4abaa165ff6fc90a94
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_2BY4_PETIT
+      guid: c941dff9fff6a544a87e7e86fa2df9da
+      id: 466897828
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_2BY4_PETIT
+        ObjectType: 3
+      Path: Default Work Unit\Play_2BY4_PETIT
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_BackgroundNoise1
+      guid: a51c0bcbffc648469bca5d831ff99fb7
+      id: 1348847209
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_BackgroundNoise1
+        ObjectType: 3
+      Path: Default Work Unit\Play_BackgroundNoise1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_BigComputer
+      guid: 05d3f70e5d0f864fba842df6d8f02d35
+      id: 3418832099
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_BigComputer
+        ObjectType: 3
+      Path: Default Work Unit\Play_BigComputer
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Binder
+      guid: 3df031842a8325459a638304eb633f11
+      id: 4019075906
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Binder
+        ObjectType: 3
+      Path: Default Work Unit\Play_Binder
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_BombonesX
+      guid: 867276ab8293f7428a71c035a56e7738
+      id: 1641088555
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_BombonesX
+        ObjectType: 3
+      Path: Default Work Unit\Play_BombonesX
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Books
+      guid: 3f926125e2b3014fb3d212848770472c
+      id: 4186431144
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Books
+        ObjectType: 3
+      Path: Default Work Unit\Play_Books
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Boxes
+      guid: 7b5394234a4dff40b49266a68f33a6ce
+      id: 3617816481
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Boxes
+        ObjectType: 3
+      Path: Default Work Unit\Play_Boxes
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_ChairX
+      guid: dc2a9e06fb19514c8cc0f1b79e438ad6
+      id: 1355160463
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ChairX
+        ObjectType: 3
+      Path: Default Work Unit\Play_ChairX
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Fan
+      guid: dae4e975cb1dc346a5a28b0db6569fce
+      id: 2757069037
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Fan
+        ObjectType: 3
+      Path: Default Work Unit\Play_Fan
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Generatrice
+      guid: c17179da214d7f49bd28535f7fd18255
+      id: 2394630481
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Generatrice
+        ObjectType: 3
+      Path: Default Work Unit\Play_Generatrice
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_IdleRoaming
+      guid: 9aec5beff9842042ad9807e131cc7b02
+      id: 1601478205
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_IdleRoaming
+        ObjectType: 3
+      Path: Default Work Unit\Play_IdleRoaming
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Impact
+      guid: 8c6b38cca330cb499753609afbf85efe
+      id: 2764105556
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Impact
+        ObjectType: 3
+      Path: Default Work Unit\Play_Impact
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Ladder
+      guid: efbfcdf060e9f640a44828d10467e9a6
+      id: 3433173770
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Ladder
+        ObjectType: 3
+      Path: Default Work Unit\Play_Ladder
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_LittleGlassX
+      guid: de611d4bcc0b1440b9b48f1b8383381f
+      id: 2270832326
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_LittleGlassX
+        ObjectType: 3
+      Path: Default Work Unit\Play_LittleGlassX
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_LittlePlasticContainer
+      guid: bc6273b4258dad4098249349782e77af
+      id: 1964439655
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_LittlePlasticContainer
+        ObjectType: 3
+      Path: Default Work Unit\Play_LittlePlasticContainer
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_LockerImpact
+      guid: 0baeff46339c99409e24f920e33f1b49
+      id: 3716050640
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_LockerImpact
+        ObjectType: 3
+      Path: Default Work Unit\Play_LockerImpact
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_MetalLid
+      guid: b213ea41f1630649b7abf1a76392fa51
+      id: 3108966210
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MetalLid
+        ObjectType: 3
+      Path: Default Work Unit\Play_MetalLid
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Mug
+      guid: c47f7e11750224428f44c4e5112d4f31
+      id: 2557561979
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Mug
+        ObjectType: 3
+      Path: Default Work Unit\Play_Mug
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_NeonAmbiantNoise
+      guid: 4fc0bc1fed91b14e9c59011abefbe42e
+      id: 3815874932
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_NeonAmbiantNoise
+        ObjectType: 3
+      Path: Default Work Unit\Play_NeonAmbiantNoise
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_OfficeChair
+      guid: 89b17750ad75c64c8b81d7b63eb4841e
+      id: 3509925869
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_OfficeChair
+        ObjectType: 3
+      Path: Default Work Unit\Play_OfficeChair
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_PlasticBin
+      guid: 8f084771bf289445ba6589d3fe2393c7
+      id: 3136168125
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_PlasticBin
+        ObjectType: 3
+      Path: Default Work Unit\Play_PlasticBin
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Plastique_Vide
+      guid: ef16efd21971944db99f687b4a14a249
+      id: 3516793947
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Plastique_Vide
+        ObjectType: 3
+      Path: Default Work Unit\Play_Plastique_Vide
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Roomtone_Hallway
+      guid: b0a0f62b378aee4da5568f11008c6353
+      id: 2210623508
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Roomtone_Hallway
+        ObjectType: 3
+      Path: Default Work Unit\Play_Roomtone_Hallway
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Roomtone_MachineRoom
+      guid: 2f79c8fbc0f42e4fa18c9e5d7d21374c
+      id: 2878755668
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Roomtone_MachineRoom
+        ObjectType: 3
+      Path: Default Work Unit\Play_Roomtone_MachineRoom
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Roomtone_Office
+      guid: ca84717d0ff0f247a2741ffc2cb5f708
+      id: 1761772902
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Roomtone_Office
+        ObjectType: 3
+      Path: Default Work Unit\Play_Roomtone_Office
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Roomtone_Security
+      guid: e9c76d2df53adb44b0977d23876b3ac0
+      id: 3295576596
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Roomtone_Security
+        ObjectType: 3
+      Path: Default Work Unit\Play_Roomtone_Security
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Stinger2
+      guid: f10a43ff3cfc17419cabbeba6e614a20
+      id: 3564543702
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Stinger2
+        ObjectType: 3
+      Path: Default Work Unit\Play_Stinger2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_TVGLITCH2
+      guid: 6272ab1be08a7f40979f075db352c42e
+      id: 1199877479
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_TVGLITCH2
+        ObjectType: 3
+      Path: Default Work Unit\Play_TVGLITCH2
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VHS_IDLE
+      guid: 78430009a7bb30408ce0c803ebb046c1
+      id: 4240569940
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_VHS_IDLE
+        ObjectType: 3
+      Path: Default Work Unit\Play_VHS_IDLE
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 6230d8594ac9fb4dad5ee8ca5410f3eb
+    GuidInternal: 
+    m_lastTime: -8586467854314775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 9ccc22a08db2c24aa29250720e86362f
+    GuidInternal: 
+    m_lastTime: -8586467394534775808
+    List:
+    - name: State_Test
+      guid: 2e39c001e7d84145b6b9fba2202c87d7
+      id: 19971727
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: State_Test
+        ObjectType: 9
+      Path: Default Work Unit\State_Test
+      values:
+      - name: None
+        guid: efd14d5589e6f94f925c9502ebb69bf8
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: State_1
+        guid: 063b045aa9cfaa4a8d46d19294e0b9d7
+        id: 1277114380
+        PathAndIcons:
+        - ElementName: State_1
+          ObjectType: 8
+      - name: State_2
+        guid: be2bc66e918ec4458066a0703e30f9e8
+        id: 1277114383
+        PathAndIcons:
+        - ElementName: State_2
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: State_Test_2
+      guid: 3bb457445d76474386f2d8c78ce2807f
+      id: 2481752276
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: State_Test_2
+        ObjectType: 9
+      Path: Default Work Unit\State_Test_2
+      values:
+      - name: None
+        guid: a5c97e9cab1b0e419eff8cbb9bc470ac
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 8892720fc09e6a4fad01fcb0b9f25ac6
+    GuidInternal: 
+    m_lastTime: -8586462247034775808
+    List:
+    - name: RoomToneSwitch
+      guid: 038d0b55c6d9f14399543e3b0731b8c7
+      id: 384339276
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: RoomToneSwitch
+        ObjectType: 11
+      Path: Default Work Unit\RoomToneSwitch
+      values:
+      - name: Hallway
+        guid: aff0634f3fe2ff4191c0c36e928f5eca
+        id: 2198133169
+        PathAndIcons:
+        - ElementName: Hallway
+          ObjectType: 10
+      - name: Office
+        guid: e89955fa86f7564eb38cbc781f513257
+        id: 1547173777
+        PathAndIcons:
+        - ElementName: Office
+          ObjectType: 10
+      - name: Security
+        guid: a839038a73e5e24a85a3c237db831a5a
+        id: 3622948563
+        PathAndIcons:
+        - ElementName: Security
+          ObjectType: 10
+      - name: Toilet
+        guid: e7a641f639555b41ae0307fa00f6f90d
+        id: 580245626
+        PathAndIcons:
+        - ElementName: Toilet
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Switch_Test
+      guid: 3ca7972343f7c543b26f185e899e3a44
+      id: 2269466764
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Switch_Test
+        ObjectType: 11
+      Path: Default Work Unit\Switch_Test
+      values:
+      - name: One
+        guid: 652dcb2c53a3bc4cb469683854ec6162
+        id: 1064933119
+        PathAndIcons:
+        - ElementName: One
+          ObjectType: 10
+      - name: Two
+        guid: 86b8ba103f846547a5bf3a9f2883d8c6
+        id: 678209053
+        PathAndIcons:
+        - ElementName: Two
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 28a7aa960be33a42ba9a56569464cec2
+    GuidInternal: 
+    m_lastTime: -8586467854314775808
+    List: []
+  - PhysicalPath: Triggers\Music.wwu
+    ParentPhysicalPath: 
+    guid: 257c2e34137408408922ead915925507
+    GuidInternal: 
+    m_lastTime: -8586463353654775808
+    List:
+    - name: DetectionSwell
+      guid: f6f1c15138c29341b604c363aa99b5a2
+      id: 739252037
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: DetectionSwell
+        ObjectType: 14
+      Path: Music\DetectionSwell
+  ExpandedItems: []
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

@@ -1,0 +1,34 @@
+﻿
+#pragma kernel CSFoam
+
+float headVertCount = 5368;
+
+uint rng_state;
+
+uint rand_lcg()
+{
+	// LCG values from Numerical Recipes
+	rng_state = 1664525 * rng_state + 1013904223;
+	return rng_state;
+}
+
+struct Particles
+{
+	float3 position;
+	float3 offSet;
+	float3 dir;
+}
+
+
+ RWStructuredBuffer<Particles> particleBuffer;
+
+ float3 headPosition;
+ float3 headRotation;
+ float deltaTime;
+
+[numthreads(512,1,1)]
+void CSFoam(uint3 id : SV_DispatchThreadID)
+{
+
+    
+}

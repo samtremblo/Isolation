@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: fd7f89f8adebbf241bfbb0ee5c82763f
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 0000000013000000140000001500000016000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 49c39667df9281720be1ace1b010f3f6
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 11.506546, y: 16.767088, z: -8.807383}
+      lookAt: {x: 6.887971, y: 10.072088, z: -4.9068956}
+      up: {x: -0.5670449, y: 0.67017335, z: 0.4788818}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Assembly~2
+    100004: Assembly~3
+    100006: Cube.005
+    100008: Cube.005 1
+    100010: Cube.005 2
+    100012: Mesh1
+    100014: Mesh1 1
+    100016: Model
+    100018: TempSimLab_2019-04-02-21-35-39
+    100020: TempSimLab_2019-04-02-21-40-55
+    100022: Assembly~2 1
+    100024: Assembly~2 2
+    100026: Component#2
+    100028: Cube.010
+    100030: Cube.010 1
+    100032: Cube.010 2
+    100034: Cube.010 3
+    100036: Cube.010 4
+    100038: TempSimLab_2019-04-02-21-45-17
+    100040: TempSimLab_2019-04-02-21-50-41
+    100042: WashRoom
+    100044: WashRoom 1
+    100046: WashRoom 2
+    100048: WashRoom 3
+    100050: WashRoom 4
+    100052: WashRoom 5
+    100054: Component#3
+    400000: //RootNode
+    400002: Assembly~2
+    400004: Assembly~3
+    400006: Cube.005
+    400008: Cube.005 1
+    400010: Cube.005 2
+    400012: Mesh1
+    400014: Mesh1 1
+    400016: Model
+    400018: TempSimLab_2019-04-02-21-35-39
+    400020: TempSimLab_2019-04-02-21-40-55
+    400022: Assembly~2 1
+    400024: Assembly~2 2
+    400026: Component#2
+    400028: Cube.010
+    400030: Cube.010 1
+    400032: Cube.010 2
+    400034: Cube.010 3
+    400036: Cube.010 4
+    400038: TempSimLab_2019-04-02-21-45-17
+    400040: TempSimLab_2019-04-02-21-50-41
+    400042: WashRoom
+    400044: WashRoom 1
+    400046: WashRoom 2
+    400048: WashRoom 3
+    400050: WashRoom 4
+    400052: WashRoom 5
+    400054: Component#3
+    2100000: _defaultMat
+    2100002: security_wall
+    2100004: security_border
+    2100006: FrontColor
+    2100008: None
+    2100010: Wall_Border_Room_Ceramic
+    2100012: Floor1
+    2100014: Wall_Border_Room_Top
+    2100016: Wall_Top_Room
+    2100018: top_wall_office
+    2100020: wood_border_wall
+    2100022: bottom_wall_office
+    2100024: border_window_office
+    2300000: //RootNode
+    2300002: Cube.005 1
+    2300004: Cube.005 2
+    2300006: Mesh1 1
+    2300008: Component#2
+    2300010: Cube.010 1
+    2300012: Cube.010 2
+    2300014: Cube.010 3
+    2300016: Cube.010 4
+    2300018: WashRoom 1
+    2300020: WashRoom 2
+    2300022: WashRoom 3
+    2300024: WashRoom 4
+    2300026: WashRoom 5
+    2300028: Component#3
+    3300000: //RootNode
+    3300002: Cube.005 1
+    3300004: Cube.005 2
+    3300006: Mesh1 1
+    3300008: Component#2
+    3300010: Cube.010 1
+    3300012: Cube.010 2
+    3300014: Cube.010 3
+    3300016: Cube.010 4
+    3300018: WashRoom 1
+    3300020: WashRoom 2
+    3300022: WashRoom 3
+    3300024: WashRoom 4
+    3300026: WashRoom 5
+    3300028: Component#3
+    4300000: Mesh walls
+    4300002: Mesh Cube.005
+    4300004: Mesh Cube.005
+    4300006: Mesh Mesh1
+    4300008: Mesh WashRoom
+    4300010: Mesh WashRoom
+    4300012: Mesh WashRoom
+    4300014: Mesh WashRoom
+    4300016: Mesh WashRoom
+    4300018: Mesh Component#2
+    4300020: Mesh Cube.010
+    4300022: Mesh Cube.010
+    4300024: Mesh Cube.010
+    4300026: Mesh Cube.010
+    4300028: Mesh Component#3
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.00025399998
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

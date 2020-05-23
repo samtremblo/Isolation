@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 0fe7cf207ba4627459c1e480a64c578b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cube.000_Cube.003
+    100002: Cube.001_Cube.000
+    100004: Cube.001_Cube.002
+    100006: Cube.006_Cube.021
+    100008: Cube.009_Cube.000
+    100010: Cube.010_Cube.004
+    100012: Cube.011_Cube.005
+    100014: Toilet_Join_fix.000
+    100016: Toilet_Join_fix.001
+    100018: Toilet_Join_fix.002
+    100020: Toilet_Join_fix.003
+    100022: Toilet_Join_fix.004
+    100024: Toilet_Join_fix.005
+    100026: Toilet_Join_Move.001_Cube.000
+    100028: Toilet_Join_Move.001_Cube.001
+    100030: Toilet_Join_Move.001_Cube.002
+    100032: Toilet_Join_Move.001_Cube.003
+    100034: Toilet_Join_Move.001_Cube.004
+    100036: Toilet_Join_Move.001_Cube.011
+    100038: //RootNode
+    400000: Cube.000_Cube.003
+    400002: Cube.001_Cube.000
+    400004: Cube.001_Cube.002
+    400006: Cube.006_Cube.021
+    400008: Cube.009_Cube.000
+    400010: Cube.010_Cube.004
+    400012: Cube.011_Cube.005
+    400014: Toilet_Join_fix.000
+    400016: Toilet_Join_fix.001
+    400018: Toilet_Join_fix.002
+    400020: Toilet_Join_fix.003
+    400022: Toilet_Join_fix.004
+    400024: Toilet_Join_fix.005
+    400026: Toilet_Join_Move.001_Cube.000
+    400028: Toilet_Join_Move.001_Cube.001
+    400030: Toilet_Join_Move.001_Cube.002
+    400032: Toilet_Join_Move.001_Cube.003
+    400034: Toilet_Join_Move.001_Cube.004
+    400036: Toilet_Join_Move.001_Cube.011
+    400038: //RootNode
+    2100000: Toilet_Public_Join
+    2100002: Toilet_Public_Door
+    2100004: Toilet_Public_Side_Middle
+    2100006: Toilet_Public_Foot
+    2100008: Toilet_Join_Move
+    2100010: Toilet_Public_Wall
+    2100012: Toilet_Public_Side
+    2100014: Toilet_Public_Door_02
+    2100016: None
+    2300000: Cube.000_Cube.003
+    2300002: Cube.001_Cube.000
+    2300004: Cube.001_Cube.002
+    2300006: Cube.006_Cube.021
+    2300008: Cube.009_Cube.000
+    2300010: Cube.010_Cube.004
+    2300012: Cube.011_Cube.005
+    2300014: Toilet_Join_fix.000
+    2300016: Toilet_Join_fix.001
+    2300018: Toilet_Join_fix.002
+    2300020: Toilet_Join_fix.003
+    2300022: Toilet_Join_fix.004
+    2300024: Toilet_Join_fix.005
+    2300026: Toilet_Join_Move.001_Cube.000
+    2300028: Toilet_Join_Move.001_Cube.001
+    2300030: Toilet_Join_Move.001_Cube.002
+    2300032: Toilet_Join_Move.001_Cube.003
+    2300034: Toilet_Join_Move.001_Cube.004
+    2300036: Toilet_Join_Move.001_Cube.011
+    3300000: Cube.000_Cube.003
+    3300002: Cube.001_Cube.000
+    3300004: Cube.001_Cube.002
+    3300006: Cube.006_Cube.021
+    3300008: Cube.009_Cube.000
+    3300010: Cube.010_Cube.004
+    3300012: Cube.011_Cube.005
+    3300014: Toilet_Join_fix.000
+    3300016: Toilet_Join_fix.001
+    3300018: Toilet_Join_fix.002
+    3300020: Toilet_Join_fix.003
+    3300022: Toilet_Join_fix.004
+    3300024: Toilet_Join_fix.005
+    3300026: Toilet_Join_Move.001_Cube.000
+    3300028: Toilet_Join_Move.001_Cube.001
+    3300030: Toilet_Join_Move.001_Cube.002
+    3300032: Toilet_Join_Move.001_Cube.003
+    3300034: Toilet_Join_Move.001_Cube.004
+    3300036: Toilet_Join_Move.001_Cube.011
+    4300000: Toilet_Join_fix.001
+    4300002: Cube.001_Cube.002
+    4300004: Cube.000_Cube.003
+    4300006: Toilet_Join_Move.001_Cube.011
+    4300008: Cube.006_Cube.021
+    4300010: Cube.009_Cube.000
+    4300012: Cube.010_Cube.004
+    4300014: Cube.011_Cube.005
+    4300016: Cube.001_Cube.000
+    4300018: Toilet_Join_fix.000
+    4300020: Toilet_Join_Move.001_Cube.000
+    4300022: Toilet_Join_fix.002
+    4300024: Toilet_Join_Move.001_Cube.001
+    4300026: Toilet_Join_fix.003
+    4300028: Toilet_Join_Move.001_Cube.002
+    4300030: Toilet_Join_fix.004
+    4300032: Toilet_Join_Move.001_Cube.003
+    4300034: Toilet_Join_fix.005
+    4300036: Toilet_Join_Move.001_Cube.004
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

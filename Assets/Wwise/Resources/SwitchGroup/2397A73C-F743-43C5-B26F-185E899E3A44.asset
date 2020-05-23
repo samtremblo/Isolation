@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8b09aba4bc1b0749a2950c28511ab10, type: 3}
+  m_Name: 2397A73C-F743-43C5-B26F-185E899E3A44
+  m_EditorClassIdentifier: 
+  objectName: Switch_Test
+  id: 2269466764
+  guid: 2397A73C-F743-43C5-B26F-185E899E3A44

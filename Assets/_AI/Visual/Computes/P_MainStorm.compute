@@ -1,0 +1,155 @@
+﻿#include "../Librairies/SimplexNoise3D.hlsl"
+#define PI 3.1415926538
+
+#pragma kernel CSMainStorm
+#pragma kernel CSDisolve
+
+
+struct Particles
+{
+	float colorLife;
+	float3 position;
+	float3 localPos;
+	float life;
+};
+
+RWStructuredBuffer<Particles> particleBuffer;
+
+struct ParticlesDisolve
+{
+	float3 originVertex;
+	float3 position;
+	float3 uv;
+	float life;
+};
+
+RWStructuredBuffer<ParticlesDisolve> disolveBuffer;
+
+struct BufferData
+{
+	float3 objectsPosition;
+	float active;
+};
+StructuredBuffer<BufferData> bufferData;
+
+float deltaTime;
+float3 headPosition;
+float3 attractor;
+float2 heartBeats;
+float speed;
+
+//noise and perlin
+float nrand(float2 uv)
+{
+	return frac(sin(dot(uv, float2(12.9898, 78.233))) * 43758.5453);
+}
+
+uint rng_state;
+
+
+uint rand_xorshift()
+{
+	// Xorshift algorithm from George Marsaglia's paper
+	rng_state ^= (rng_state << 13);
+	rng_state ^= (rng_state >> 17);
+	rng_state ^= (rng_state << 5);
+	return rng_state;
+}
+
+// https://github.com/cabbibo/glsl-curl-noise/blob/master/curl.glsl
+float3 snoiseVec3(float3 x) {
+
+	float s = snoise(x);
+	float s1 = snoise(float3(x.y - 19.1, x.z + 33.4, x.x + 47.2));
+	float s2 = snoise(float3(x.z + 74.2, x.x - 124.5, x.y + 99.4));
+	float3 c = float3(s, s1, s2);
+	return c;
+}
+
+
+float3 curlNoise(float3 p) {
+
+	const float e = .1;
+	float3 dx = float3(e, 0.0, 0.0);
+	float3 dy = float3(0.0, e, 0.0);
+	float3 dz = float3(0.0, 0.0, e);
+
+	float3 p_x0 = snoiseVec3(p - dx);
+	float3 p_x1 = snoiseVec3(p + dx);
+	float3 p_y0 = snoiseVec3(p - dy);
+	float3 p_y1 = snoiseVec3(p + dy);
+	float3 p_z0 = snoiseVec3(p - dz);
+	float3 p_z1 = snoiseVec3(p + dz);
+
+	float x = p_y1.z - p_y0.z - p_z1.y + p_z0.y;
+	float y = p_z1.x - p_z0.x - p_x1.z + p_x0.z;
+	float z = p_x1.y - p_x0.y - p_y1.x + p_y0.x;
+
+	const float divisor = 1.0 / (2.0 * e);
+	return normalize(float3(x, y, z) * divisor);
+
+}
+
+
+[numthreads(512, 1, 1)]
+void CSMainStorm(uint3 id : SV_DispatchThreadID)
+{	
+
+	float dist = distance(particleBuffer[id.x].localPos, headPosition);
+	float factorDist = dist ;
+
+	if (distance(particleBuffer[id.x].localPos, attractor) < clamp(sin(heartBeats.y)/2, 0, 1)) particleBuffer[id.x].colorLife = 1;
+	else particleBuffer[id.x].colorLife = clamp(particleBuffer[id.x].colorLife - deltaTime, 0, 1);
+
+	particleBuffer[id.x].life -= deltaTime * factorDist;
+	particleBuffer[id.x].localPos += curlNoise(particleBuffer[id.x].localPos*2 * speed) * (0.1 + clamp(sin(heartBeats.x), 0, 1)*0.3) *(1 - clamp(factorDist, 0, 0.8));
+
+	float3 oldPos = particleBuffer[id.x].localPos - headPosition;
+	float3 axis = float3(0.5, 0.5, 0);
+	float factorRot = 0.1*(1 - clamp(abs(oldPos.y / 4), 0, 1));
+	float angle = clamp(factorDist * 5 - 3, 0, 1)*0.1;
+
+	particleBuffer[id.x].localPos = oldPos * cos(angle) + cross(axis, oldPos)*sin(angle) + axis * dot(axis, oldPos)*(1 - cos(angle)) + headPosition;
+	particleBuffer[id.x].position = particleBuffer[id.x].localPos;
+
+	if (particleBuffer[id.x].life < 0)
+	{
+		rng_state = id.x;
+		float f0 = float(rand_xorshift()) * (1.0 / 4294967296.0) - 0.5;
+		float f1 = float(rand_xorshift()) * (1.0 / 4294967296.0) - 0.5;
+		float f2 = float(rand_xorshift()) * (1.0 / 4294967296.0) - 0.5;
+		float3 normalF3 = normalize(float3(f0, f1, f2)) * 0.2f;
+		normalF3 *= float(rand_xorshift()) * (1.0 / 4294967296.0);
+		particleBuffer[id.x].localPos = headPosition+float3(normalF3.x, normalF3.y , normalF3.z);
+		
+		particleBuffer[id.x].life = 5;
+		
+	}
+
+}
+
+[numthreads(512, 1, 1)]
+void CSDisolve(uint3 id : SV_DispatchThreadID)
+{
+	int offSetIDX = disolveBuffer[id.x].uv.z;
+	float active = bufferData[offSetIDX].active;
+
+	disolveBuffer[id.x].life -= deltaTime;
+	
+	float3 dir = -normalize(bufferData[offSetIDX].objectsPosition - headPosition);
+	float speedFromLife = clamp( 0.8*(1- ((disolveBuffer[id.x].life) / 6) ), 0.1, 0.8);
+
+	disolveBuffer[id.x].position += dir* deltaTime * (0.1+speedFromLife);
+	disolveBuffer[id.x].position += curlNoise(disolveBuffer[id.x].position)*0.01f;
+
+	if (disolveBuffer[id.x].life < 0 && active > 0)
+	{
+		rng_state = id.x;
+		disolveBuffer[id.x].position = disolveBuffer[id.x].originVertex + bufferData[offSetIDX].objectsPosition;
+
+		disolveBuffer[id.x].life =  float(rand_xorshift()) * (1.0 / 4294967296.0) * 6;
+
+	}
+
+}
+
